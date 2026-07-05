@@ -20,11 +20,5 @@
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
     "typescript": "^5"
-  },
-  "pnpm": {
-    "overrides": {
-      "electron-to-chromium": "1.5.385",
-      "baseline-browser-mapping": "2.10.41"
-    }
   }
 }

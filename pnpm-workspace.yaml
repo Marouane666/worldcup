@@ -1,3 +1,10 @@
 allowBuilds:
   sharp: false
   unrs-resolver: false
+
+# Pin two churny transitive deps of Next.js to versions published before
+# common supply-chain release-age cutoffs (they publish new patches daily).
+# Overrides live here because pnpm 10+ ignores the "pnpm" field in package.json.
+overrides:
+  electron-to-chromium: 1.5.385
+  baseline-browser-mapping: 2.10.41
